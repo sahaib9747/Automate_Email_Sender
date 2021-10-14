@@ -8,4 +8,5 @@
 * go to 'Manage Your Google Account'
 * go to the 'Security' menu.
 * Allow the 'less secure apps'.
+
 You are done, now sent unlimited emails using this tool.
