@@ -1,6 +1,6 @@
 ## Features
-    * Sending Mail with Voice Recognization
-    * Time saving
+* Sending Mail with Voice Recognization
+* Time saving
 
 ## To taste the salt, You have to configure your gmail account first:
 * set your email id and password as self.email an self.password
