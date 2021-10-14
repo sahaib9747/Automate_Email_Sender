@@ -97,9 +97,18 @@ class EmailSender(EmailSenderTemplate):
 
 
 def app():
-    email = EmailSender()
-    email.build_server()
-    email.send_email()
+    while True: 
+        email = EmailSender()
+        email.build_server()  # prepare the server
+        email.send_email()
+
+        email.speaker('Do you want to continue sending emails say YES or No')
+        
+        if 'no' in email.get_data():
+            break
+        else:
+            continue
+
 
 if __name__ == '__main__':
     app()
